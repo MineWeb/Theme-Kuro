@@ -13,7 +13,7 @@
 
     <?= $this->Html->css('bootstrap.min.css') ?>
     <?= $this->Html->css('prettyPhoto.css') ?>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <?= $this->Html->css('animate.css') ?>
     <?= $this->Html->css('main.css') ?>
     <?= $this->Html->css('responsive.css') ?>
@@ -21,7 +21,7 @@
 
       <?= $this->Html->script('jquery-1.11.0.js') ?>
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
     <link rel="icon" type="image/png" href="<?= $theme_config['favicon_url'] ?>" />
 

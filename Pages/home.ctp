@@ -17,7 +17,7 @@ color: white;
         <?php
           foreach ($search_slider as $k => $v) {
 
-            echo '<div class="item" style="background-image:url('.$v['Slider']['url_img'].');background-size: auto;background-position: center;">';
+            echo '<div class="item" style="background:url('.$v['Slider']['url_img'].') no-repeat;background-size: auto;background-position: center;">';
                echo '<div class="container">';
                                       echo '<center><h1 class="title-one" style="margin-top : 15%; color: white; font-size: 64px;">'.before_display($v['Slider']['title']).'</h1></center>';
                                         echo '<p class="text-center" style="color: white; font-size: 25px;">'.before_display($v['Slider']['subtitle']).'</p>';
@@ -60,7 +60,7 @@ color: white;
 
 
 <section id="services" class="parallax-section">
-          <h2 class="title-one"><?= ($banner_server) ? $banner_server : $Lang->get('SERVER__STATUS_OFF') ?></h2>
+          <h2 class="title-one">Joueur<?php if($server_infos['GET_PLAYER_COUNT'] >= 2) echo 's';?>: <?= $server_infos['GET_PLAYER_COUNT'] ?></h2>
     </section>
 
 
@@ -129,18 +129,18 @@ echo '</div>';
               <?php
              
                   if(!empty($skype_link)) {
-                    echo '<a href="'.$skype_link.'" target="_blank" class="btn btn-custom btn-block btn-success"><img src="theme/kuoo/img/skype.png"></a>';
+                    echo '<a href="'.$skype_link.'" target="_blank" class="btn btn-custom btn-block btn-success"><img src="theme/kuro/img/skype.png"></a>';
                   }
                 
                   if(!empty($youtube_link)) {
-                    echo'<a href="'.$youtube_link.'" target="_blank" class="btn btn-custom btn-block btn-danger"><img src="theme/kuoo/img/yt.png"></a>';
+                    echo'<a href="'.$youtube_link.'" target="_blank" class="btn btn-custom btn-block btn-danger"><img src="theme/kuro/img/yt.png"></a>';
                   }
               
                   if(!empty($twitter_link)) {
-                    echo '<a href="'.$twitter_link.'" target="_blank" class="btn btn-custom btn-block btn-info"><img src="theme/kuoo/img/twitter.png"></a>';
+                    echo '<a href="'.$twitter_link.'" target="_blank" class="btn btn-custom btn-block btn-info"><img src="theme/kuro/img/twitter.png"></a>';
                   }
                   if(!empty($facebook_link)) {
-                    echo '<a href="'.$facebook_link.'" target="_blank" class="btn btn-custom btn-block btn-info"><img src="theme/kuoo/img/fb.png"></a>';
+                    echo '<a href="'.$facebook_link.'" target="_blank" style="background-color: rgb(59, 89, 152);" class="btn btn-custom btn-block btn-info"><img src="theme/kuro/img/fb.png"></a>';
                   }
                   ?>
                

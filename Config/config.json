@@ -1,1 +1,30 @@
-{"name":"Kuro","slug":"Kuro","author":"EmpireDev","version":"1.0.0","apiID":0,"slider":"true","configurations":{},"supported":{}}
+{
+    "name": "Kuro",
+    "slug": "Kuro",
+    "author": "EmpireDev",
+    "version": "1.2.0",
+    "apiID": 0,
+    "slider": "true",
+    "configurations": {
+        "favicon_url": "",
+        "ip": "",
+        "news_text": "",
+        "homepage_features": [
+            {
+                "grade": "rth",
+                "prix": "5",
+                "desc1": "hrth",
+                "desc2": "rth",
+                "desc3": "rth",
+                "lien": "hrt"
+            },
+            {
+                "title": "(-u",
+                "icon": "(-u",
+                "message": "tjy"
+            }
+        ],
+        "logo": false
+    },
+    "supported": {}
+}
