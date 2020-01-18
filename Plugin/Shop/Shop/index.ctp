@@ -4,7 +4,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-3">
-        <p class="lead"><?= ($isConnected) ? $Lang->get('SHOP__TITLE')." | ".$money.' '.$Configuration->getMoneyName() : $Lang->get('SHOP__TITLE'); ?></p>
+        <p class="lead"><?= ($isConnected) ? $Lang->get('SHOP__TITLE')." | ".$money : $Lang->get('SHOP__TITLE'); ?></p>
         <div class="list-group">
             <?php
             $i = 0;
