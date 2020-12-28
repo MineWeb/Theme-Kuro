@@ -13,10 +13,6 @@
               </div>
               <div class="col-md-8">
                 <div class="form-group">
-                  <label><?= $Lang->get('THEME__FAVICON_URL') ?></label>
-                  <input type="text" class="form-control" name="favicon_url" value="<?= $config['favicon_url'] ?>">
-                </div>
-                <div class="form-group">
                   <label>Bouton IP</label>
                   <input type="text" class="form-control" name="ip" value="<?= $config['ip'] ?>">
                 </div>
